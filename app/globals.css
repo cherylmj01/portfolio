@@ -3,13 +3,12 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'Inter';
-    src: url('/fonts/Inter-VariableFont_slnt,wght.ttf') format('ttf'),
-         url('/fonts/Inter-VariableFont_slnt,wght.ttf') format('ttf');
-    font-weight: 400;
-    font-style: normal;
-  }
+  font-family: 'Inter';
+  src: url('/fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+  font-weight: 100 900; /* Adjust according to the actual weight range of your variable font */
+  font-style: normal to italic; /* Adjust if your font supports italics */
+}
 
-  body {
-    font-family: 'Inter', sans-serif;
-  }
+body {
+  font-family: 'Inter', sans-serif;
+}
